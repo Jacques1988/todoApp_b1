@@ -1,5 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    padding:0;
+    margin:0;
+    overflow: hidden;
+}
 
-.button{
-    background-color:pink;
+/* ########### FONTS ############################# */
+@font-face {
+    font-family: 'bitcount';
+    src: url(./assets/fonts/BitcountGridDouble-Regular.ttf);
+}
+
+
+section{
+    width:100%;
+    max-width: 1400px;
+    background-color:red;
+    margin:0 200px;
+}
+
+.teaser{
+    font-size:2.5rem;
+    font-family: "bitcount";
+    padding:0;
+    margin:0;
 }
