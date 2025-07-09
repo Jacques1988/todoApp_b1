@@ -17,3 +17,10 @@ section{
 .teaser{
     margin-top:2rem;
 }
+
+
+@media (max-width:480px){
+    .logo-container{
+        display:none;
+    }
+}
