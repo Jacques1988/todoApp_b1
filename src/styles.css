@@ -5,6 +5,11 @@ body{
     overflow: hidden;
 }
 
+img{
+    width:100%;
+    object-fit: cover;
+}
+
 /* ########### FONTS ############################# */
 @font-face {
     font-family: 'bitcount';
@@ -15,7 +20,6 @@ body{
 section{
     width:100%;
     max-width: 1400px;
-    background-color:red;
     margin:auto;
 }
 
