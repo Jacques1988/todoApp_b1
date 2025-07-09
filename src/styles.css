@@ -29,3 +29,19 @@ section{
     padding:0;
     margin:0;
 }
+
+
+/* #################################### RESPONSIVE AND MEDIA QUERIES ################################ */
+
+
+@media (max-width:480px){
+    .teaser{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:380px){
+    .teaser{
+        font-size:1.6rem;
+    }
+}
