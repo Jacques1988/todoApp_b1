@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    box-sizing: border-box;
+}
+
+
 body{
     padding:0;
     margin:0;
@@ -18,7 +24,7 @@ img{
 
 
 section{
-    width:100%;
+   /*  width:100%; */
     max-width: 1400px;
     margin:auto;
 }
@@ -62,6 +68,13 @@ section{
     }
 }
 
+@media (max-width:768px){
+    section{
+        padding: 0 40px;
+        margin-top:2rem !important;
+    }
+}
+
 @media (max-width:550px){
 
     .teaser{
@@ -98,3 +111,6 @@ section{
         font-size:1.2rem;
     }
 }
+
+
+
