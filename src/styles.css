@@ -63,9 +63,6 @@ section{
 }
 
 @media (max-width:550px){
-    section{
-        padding: 0 40px;
-    }
 
     .teaser{
         font-size:2.5rem;
