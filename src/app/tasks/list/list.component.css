@@ -1,0 +1,46 @@
+
+
+.list-element{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.task-input{
+    appearance: none;
+    width:30px;
+    height:30px;
+    border:1px solid lightgrey;
+    margin-right:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-input:checked::before{
+    content:"✓";
+    font-size:2rem;
+    color:darkorchid;
+    font-weight: 800;
+}
+
+
+.task-title, .task-status{
+    font-family: 'bitcount';
+    font-size:1.5rem;
+    min-width:250px;
+}
+
+.text-stroke{
+    text-decoration: line-through;
+}
+
+@media (max-width:825px){
+    .task-title, .task-status{
+        min-width:200px;
+    }
+
+    .task-title{
+        margin-right:2rem;
+    }
+}

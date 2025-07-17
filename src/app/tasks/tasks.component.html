@@ -1,0 +1,13 @@
+<section>
+    <h2 class="teaser-secondary">Task List</h2>
+    <ul class="list-group">
+        @if(tasks()){
+            @for(task of tasks(); track task.id){
+                <app-list [data]="task" (updateTaskEvent)="updateTask(task)"></app-list>
+            }
+        }
+        
+    </ul>
+</section>
+
+
