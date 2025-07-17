@@ -1,0 +1,7 @@
+@if(data()){
+<li class="list-element">
+  <input class="task-input" [checked]="data().checked" type="checkbox" (change)="toggleStatus()" />
+  <p [ngClass]="{'text-stroke': data().checked}" class="task-title">{{ data().taskTitle }}</p>
+  <p class="task-status">{{ data().status }}</p>
+</li>
+}
