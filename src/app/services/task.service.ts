@@ -12,6 +12,7 @@ export class TaskService {
 
 
   getAllTasks(){
+    this.tasks.set(this.todos)
     return this.tasks
   }
 
@@ -31,5 +32,14 @@ export class TaskService {
     }
 
     this.todos.push(newTask)
+  }
+
+
+  getCompleteTasks(){
+    this.tasks.set(this.todos.filter((task) => task.status === "complete" ))
+  }
+
+  getIncompleteTasks(){
+    this.tasks.set(this.todos.filter((task) => task.status === "incomplete"))
   }
 }
