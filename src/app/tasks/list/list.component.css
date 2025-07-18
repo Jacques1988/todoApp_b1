@@ -44,3 +44,10 @@
         margin-right:2rem;
     }
 }
+
+
+@media (max-width:580px){
+    .task-status{
+        display: none;
+    }
+}
